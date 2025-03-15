@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JNetflix - Sign In</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Sign In</h1>
+      <form id="login-form">
+        <div class="input-group">
+          <input type="text" id="email" required>
+          <label for="email">Email or phone number</label>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" required>
+          <label for="password">Password</label>
+        </div>
+        <button type="submit" class="sign-in-btn">Sign In</button>
+
+        <div class="options">
+          <div class="remember-me">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+          </div>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+      </form>
+
+      <div class="alternative-login">
+        <a href="#" class="code-login">Sign in with verification code</a>
+      </div>
+
+      <div class="signup">
+        <p>New to JNetflix? <a href="#">Sign up now</a>.</p>
+      </div>
+
+      <div class="recaptcha-notice">
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a>.</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
